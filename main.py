@@ -13,7 +13,6 @@ def countdown():
     desired_date = date(year, month, day)
     time_delta = abs(desired_date - today)
     label_result["text"] = f"{time_delta} days until {desired_date}"
-    print(time_delta)
 
 # DAY
 window.columnconfigure(0, weight=1, minsize=100)
