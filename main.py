@@ -1,4 +1,3 @@
-from cgitb import text
 from datetime import date
 import tkinter as tk
 
